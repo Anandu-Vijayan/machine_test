@@ -192,7 +192,7 @@ const Table = () => {
                 </table>
                 {
                     modal ? <>
-                        <motion.div initial={{ y: 1000 }} animate={{ y: -450, transition: { duration: 1 } }} className='w-[30vw] shadow shadow-xl py-8 shadow-stone-600 mx-auto p-10 z-10 bg-stone-300 rounded-xl'>
+                        <motion.div initial={{ y: 1000 }} animate={{ y: -350, transition: { duration: 1 } }} className='w-[30vw] shadow shadow-xl py-8 shadow-stone-600 mx-auto p-10 z-10 bg-stone-300 rounded-xl'>
                             <div className=' h-full grid grid-cols-1 gap-1 mx-auto '>
                                 <input  onChange={(e) => setProductId(e.target.value)} type="text "  className='border   m-2 rounded-xl h-8 px-3 py-2 text-sm' placeholder='Enter Product Code ...' name="" id="" />
                                 <input   onChange={(e) => setProductTitle(e.target.value)} type="text " className='border   m-2 rounded-xl h-8 px-3 py-2 text-sm' placeholder='Enter Product Title ...' name="" id="" />
@@ -212,7 +212,7 @@ const Table = () => {
 
                 {
                     UpdateModal ? <>
-                        <motion.div initial={{ y: 1000 }} animate={{ y: -450, transition: { duration: 1 } }} className='w-[30vw] shadow shadow-xl py-8 shadow-stone-600 mx-auto p-10 z-10 bg-blue-200 rounded-xl'>
+                        <motion.div initial={{ y: 1000 }} animate={{ y: -350, transition: { duration: 1 } }} className='w-[30vw] shadow shadow-xl py-8 shadow-stone-600 mx-auto p-10 z-10 bg-blue-200 rounded-xl'>
                             <div className=' h-full grid grid-cols-1 gap-1 mx-auto '>
 
 
